@@ -38,10 +38,110 @@ header {
   padding: 8px 10px;
   font-size: 10px;
 }
-.fa-bars{
-    display: none !important;
+.fa-bars {
+  display: none !important;
 }
 
+.section1 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.text {
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  width: 800px;
+}
+.txt {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 550px;
+}
+.but2 {
+  background-color: #262626;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  font-size: 10px;
+}
+.but3 {
+  background-color: white;
+  border: 2px solid #262626;
+  padding: 8px 25px;
+  font-size: 10px;
+}
+.width2 {
+  padding: 100px 0px;
+}
+button:hover {
+  background-color: rgb(2, 162, 2);
+  color: white;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.imagg1 {
+  position: absolute;
+  left: 160px;
+  top: 100px;
+}
+.flex {
+  display: flex;
+  gap: 5px;
+}
+.imagg2 {
+  position: absolute;
+  top: 150px;
+  left: 320px;
+}
+.imagg3 {
+  position: absolute;
+  top: 260px;
+  left: 280px;
+}
+.imagg4 {
+  position: absolute;
+  top: 320px;
+  left: 400px;
+}
+.imagg5 {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+}
+.imagg6 {
+  position: absolute;
+  right: 370px;
+  top: 130px;
+}
+.imagg7 {
+  position: absolute;
+  right: 280px;
+  top: 170px;
+}
+.imagg8 {
+  position: absolute;
+  right: 410px;
+  top: 255px;
+}
+.imagg9 {
+  position: absolute;
+  right: 300px;
+  top: 290px;
+}
+.imagg10 {
+  position: absolute;
+  right: 300px;
+  top: 460px;
+}
 
 @media (max-width: 500px) {
   .right nav {
@@ -52,5 +152,67 @@ header {
   }
   .left {
     display: none;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 30px;
+  }
+  .imagg1 {
+    width: 41px;
+    left: 5px;
+    top: 70px;
+  }
+  .txt {
+    width: 92%;
+    font-size: 14px;
+  }
+  .imagg2 {
+    width: 42px;
+    left: 30px;
+    top: 300px;
+  }
+  .imagg3 {
+    width: 25px;
+    left: 100px;
+    top: 320px;
+  }
+  .section1 {
+    gap: 100px;
+  }
+  .imagg5 {
+    width: 25px;
+    left: 20px;
+    top: 400px;
+  }
+  .but2 {
+    padding: 18px 25px;
+  }
+  .imagg4 {
+    width: 33px;
+    left: 90px;
+    top: 460px;
+  }
+  .imagg9 {
+    width: 42px;
+    right: 20px;
+  }
+  .imagg7 {
+    width: 30px;
+    right: 25px;
+    top: 220px;
+  }
+  .imagg6 {
+    display: none;
+  }
+  .imagg8 {
+    width: 36px;
+    right: 60px;
+    top: 340px;
+  }
+  .imagg10 {
+    width: 30px;
+    right: 10px;
+    top: 380px;
   }
 }
