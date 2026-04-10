@@ -143,6 +143,60 @@ button:hover {
   top: 460px;
 }
 
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 0px;
+}
+.text2 {
+  width: 400px;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.txt2 {
+  width: 460px;
+  font-size: 14px;
+  color: #292929;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.txt3 {
+  font-size: 12px;
+  width: 250px;
+  color: #535353;
+}
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.txt4 {
+  font-size: 14px;
+  width: 480px;
+}
+.flex4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 500px) {
   .right nav {
     display: none;
@@ -215,4 +269,40 @@ button:hover {
     right: 10px;
     top: 380px;
   }
+  .section2 {
+    padding: 0px 20px;
+  }
+  .flex3 {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .flex2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .text2 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .txt2 {
+    font-size: 10px;
+    width: 100%;
+  }
+  .txt4 {
+    font-size: 10px;
+    width: 300px;
+  }
+  .aside {
+    width: 100%;
+  }
+  .section2 {
+    padding: 50px 20px;
+  }
+  .flex4{
+    flex-direction: column;
+  }
+  .flex4 img{
+    width: 100%;
+  }
+  
 }
