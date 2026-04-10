@@ -322,8 +322,8 @@ button:hover {
 }
 .posit {
   position: absolute;
-  left: 100px;
-  top: 10px;
+  left: 0px;
+  top: 0px;
 }
 .posit2 {
   position: absolute;
